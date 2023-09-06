@@ -1,0 +1,53 @@
+header {
+  width: 100%;
+  padding: 0.2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header-tit {
+  font-size: 30px;
+  color: navy;
+  padding: 30px;
+}
+
+.header-nav-list {
+  display: flex;
+  list-style: none;
+  padding: 30px;
+}
+
+.header-nav-item {
+  margin-left: 30px;
+}
+
+.header-nav-item-link {
+  text-decoration: none;
+  color: navy;
+  font-size: 20px;
+}
+
+.main-title {
+  font-size: 80px;
+  margin-top: 25%;
+}
+
+.main-box {
+  background: navy;
+  width: 75%;
+  height: 200px;
+}
+
+.main-img img {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  right: 0%;
+}
